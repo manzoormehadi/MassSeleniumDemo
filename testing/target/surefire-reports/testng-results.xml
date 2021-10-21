@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-21T17:15:05Z" name="testing_Maven.WebApp_Test" finished-at="2021-10-21T17:15:19Z" duration-ms="14030">
+    <groups>
+    </groups>
+    <test started-at="2021-10-21T17:15:05Z" name="Command line test" finished-at="2021-10-21T17:15:19Z" duration-ms="14030">
+      <class name="testing_Maven.WebApp_Test">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:testing_Maven.WebApp_Test@528931cf]" started-at="2021-10-21T17:15:05Z" name="launchApp" finished-at="2021-10-21T17:15:16Z" duration-ms="10539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="loginIntoApp()[pri:0, instance:testing_Maven.WebApp_Test@528931cf]" started-at="2021-10-21T17:15:16Z" name="loginIntoApp" finished-at="2021-10-21T17:15:18Z" duration-ms="2270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApp -->
+        <test-method signature="logoutFromApp()[pri:0, instance:testing_Maven.WebApp_Test@528931cf]" started-at="2021-10-21T17:15:18Z" name="logoutFromApp" finished-at="2021-10-21T17:15:19Z" duration-ms="1147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:testing_Maven.WebApp_Test@528931cf]" started-at="2021-10-21T17:15:19Z" name="closeApp" finished-at="2021-10-21T17:15:19Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- testing_Maven.WebApp_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- testing_Maven.WebApp_Test -->
+</testng-results>
