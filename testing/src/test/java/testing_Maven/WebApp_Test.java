@@ -3,6 +3,7 @@ package testing_Maven;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -28,7 +29,9 @@ public class WebApp_Test {
 	public void launchApp() {
 		//System.setProperty("webdriver.chrome.driver", "/home/manzoormehadi/Public/Selenium Learning/Jar Files/chromedriver_linux64/chromedriver");
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		ChromeOptions ChromeOptions = new ChromeOptions();
+		ChromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
+		driver = new ChromeDriver(ChromeOptions);
 		driver.get("http://demowebshop.tricentis.com/");
 		driver.manage().window().maximize();
 		System.out.println("application is launched");
