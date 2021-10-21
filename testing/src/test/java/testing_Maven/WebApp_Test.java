@@ -26,8 +26,8 @@ public class WebApp_Test {
 
 	@BeforeClass
 	public void launchApp() {
-		//System.setProperty("webdriver.chrome.driver", "/home/manzoormehadi/Public/Selenium Learning/Jar Files/chromedriver_linux64/chromedriver");
-		WebDriverManager.chromedriver().setup();
+		System.setProperty("webdriver.chrome.driver", "/home/manzoormehadi/Public/Selenium Learning/Jar Files/chromedriver_linux64/chromedriver");
+		//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.get("http://demowebshop.tricentis.com/");
 		driver.manage().window().maximize();
