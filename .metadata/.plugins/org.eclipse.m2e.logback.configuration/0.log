@@ -55,3 +55,4 @@
 2021-10-21 23:59:49,274 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
 2021-10-21 23:59:49,438 [Worker-24: Launching testing] INFO  o.e.m.i.launch.MavenLaunchDelegate - /home/manzoormehadi/DemoSession/testing
 2021-10-21 23:59:49,438 [Worker-24: Launching testing] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean compile test
+2021-10-22 10:02:15,894 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
